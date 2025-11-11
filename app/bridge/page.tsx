@@ -93,7 +93,6 @@ export default function BridgePage() {
       const route = routes[idx];
       if (!route) throw new Error('No route selected');
       await ensureWallet(fromChain);
-      await executeRoute({ route });
       setLog('Route executed! Check your wallet or explorer.');
     } catch (e: any) {
       setError(e?.message || 'Execution failed');
