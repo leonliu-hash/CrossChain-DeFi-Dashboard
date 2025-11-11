@@ -11,7 +11,7 @@ A lightweight **Next.js (TypeScript)** dashboard that demonstrates:
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Wallet Connect (MetaMask)**: Requests accounts and reads balances via public RPCs
 - **Multi-chain Portfolio**: Ethereum, Polygon, Arbitrum, BSC native balances + USD valuation
@@ -24,7 +24,7 @@ A lightweight **Next.js (TypeScript)** dashboard that demonstrates:
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 - **Next.js 14** (App Router) + **TypeScript**
 - **Ethers v6** for RPC balances
@@ -34,7 +34,7 @@ A lightweight **Next.js (TypeScript)** dashboard that demonstrates:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # 1) Clone
@@ -54,7 +54,7 @@ npm run dev
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 - **Token Registry**: `lib/token-registry.json` maps a few base tokens for each supported chain.  
   Extend it with more tokens as needed (contract addresses per chain).
@@ -67,7 +67,7 @@ npm run dev
 
 ---
 
-## 🧪 How to Demo (Interview Script)
+##  How to Demo (Interview Script)
 
 1. **Connect MetaMask** → native balances appear for ETH / MATIC / BNB / Arbitrum ETH
 2. **Explain Coingecko proxy** → pricing cached for 60s server-side
@@ -76,7 +76,7 @@ npm run dev
 
 ---
 
-## 🗺️ Roadmap / Extensions (Great for PRs)
+##  Roadmap / Extensions (Great for PRs)
 
 - ERC-20 balance reader with a **tokenlist** (decimals + symbols)
 - **USD conversion** of LI.FI results (parse decimals)
@@ -87,7 +87,7 @@ npm run dev
 
 ---
 
-## 📦 Deploy (Vercel)
+##  Deploy (Vercel)
 
 1. Create a new project from this repository in [Vercel].
 2. No special build settings are required (uses `next build` by default).
@@ -95,6 +95,6 @@ npm run dev
 
 ---
 
-## 📝 License
+##  License
 
 MIT © 2025 Leon Liu
