@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import { getRoutes, executeRoute } from '@lifi/sdk';
-import { lifi } from '@/app/lib/lifi';
+import { lifi } from '@/lib/lifi';
 
 type ChainOption = { id: number; label: string };
 
